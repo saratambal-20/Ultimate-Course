@@ -15,6 +15,10 @@ $(function () {
       closeFullscreen();
     }
   });
+  $(".toggle-settings").on("click", function () {
+    $(this).parent().toggleClass("hide-settings");
+    $(this).find("i").toggleClass("fa-spin");
+  });
 });
 var elem = document.documentElement;
 
