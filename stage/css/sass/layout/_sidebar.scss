@@ -47,6 +47,11 @@
         &:hover {
           padding-left: 25px;
         }
+        &.active {
+          &:before {
+            border-color: #ffc107;
+          }
+        }
       }
       .toggle-submenu {
         float: right;
@@ -75,7 +80,7 @@
             top: 0;
             width: 3px;
             height: 100%;
-            background-color: #fff;
+            background-color: #27ae60;
           }
         }
       }
